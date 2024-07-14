@@ -3,7 +3,7 @@ const path=require("path"); //npm install vs bir seye gerek yok
 
 
 export default defineConfig({
-  
+  base:`/vite-learning-multi-pages/`,
   root: './src', // Specify the root directory, vite.config.js degil ama index.html bu yeni rootta olmalı!
 
     //alternatif
